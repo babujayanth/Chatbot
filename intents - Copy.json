@@ -1,0 +1,331 @@
+{"intents": [
+        {"tag": "microsoft dynamic 365",
+         "patterns": ["microsoft dynamic 365",
+         "D365",
+         "Cloud enabled",
+         "dynamic365",
+         "dynamic 365",
+         "Consolidated platform",
+         "ERP (Enterprise Resource Planning)",
+         "CRM (Customer Relationship Management)",
+         "Add-ons",
+         "Enterprise Collaboration",
+         "Advanced Analytics",
+         "Azure",
+         "SharePoint",
+         "Office 365",
+         "Power Platform",
+         "PowerBI",
+         "Finance",
+         "Operations",
+         "Retail",
+         "Sales",
+         "Marketing",
+         "Customer Service",
+         "Field Servicev",
+         "Project Service Automation (PSA)",
+         "Talent",
+         "Secure Cloud Platform",
+         "Collaboration",
+         "State-of-the-art",
+         "Hosted",
+         "Single Platform"],
+
+         "responses": ["microsoft dynamics 365 is the new Cloud enabled consolidated platform which is a convergence of core ERP and CRM functionalities, Add-ons, Enterprise Collaboration and Advance Analytics.",
+        "It combines the power of Azure with SharePoint, Office 365, Power Platform and PowerBI. It is intended to assist companies leverage on the core functionalities of Finance, Operations, Retail, Sales, Marketing, Customer Service, Field Service, Project Service Automation (PSA) and Talent hosted in a single Secure Cloud Platform with state-of-the-art Collaboration and Advance Analytics."],
+         "context": [""]
+        },
+
+        {"tag": "microsoft dynamic 365 Application Serve",
+        "patterns": ["microsoft dynamic 365 Application Serve",
+        "microsoft dynamic 365 Application Serving",
+        "microsoft dynamic 365 Application Service"
+        ],
+        "responses": ["microsoft dynamics 365 - Business Central,microsoft dynamics 365 - Commerce,microsoft dynamics 365 - Customer Service,microsoft dynamics 365 - Field Service,microsoft dynamics 365 - Finance,microsoft dynamics 365 - Operations,microsoft dynamics 365 - Human Resources,microsoft dynamics 365 - Project,microsoft dynamics 365 - Remote Assist,microsoft dynamics 365 - Sales,microsoft dynamics 365 - Supply Chain Management,microsoft dynamics 365 - Customer Insights,microsoft dynamics 365 - Customer Voice,microsoft dynamics 365 - Electronic Invoicing,microsoft dynamics 365 - Fraud Protection,microsoft dynamics 365 - Intelligent Order Management,microsoft dynamics 365 - Marketing"],
+        "context": [""]
+        },
+
+        {"tag": "Services for microsoft dynamic 365 Applications",
+        "patterns": ["microsoft dynamic 365 Applications",
+        "Cloud Platform",
+        "Azure Platforms",
+        "Comprehensive services"
+        ],
+        
+        "responses": ["Cloud Platform along with its rich functionalities and are currently helping numerous Clients migrate and leverage on the dynamics 365 Platform. Our Comprehensive services for dynamics 365 Platform include:Discovery &amp; Recommendations Cross-Application Licence Advisory,New Implementations,microsoft dynamics 365 - Migrations,Upgrade Assistant – Major &amp; Minor,Extensions and Custom Development,Integration,Third Party Add-ons,Stabilization, Digitalization,24*7 Application Support,Hosting,Training"],
+        "context": [""]
+        },
+
+        {"tag": "microsoft dynamic 365 Competency",
+        "patterns": ["Migration",
+        "Integration",
+        "Extension",
+        "Dashboards",
+        "Functional Competencies for microsoft dynamic 365",
+        "Technical Competencies for microsoft dynamic 365"
+        ],
+        "responses": ["Finance,Supply Chain Management,Retail,Talent,Sales,Marketing,Field Service,Customer Service,Project Operations,Business Central,Commerce,X++, C/AL, C/SIDE, .NET, Visual Studio, VSTS,microsoft SQL Server,SSRS, SSAS, SSIS, microsoft Power BI,microsoft Power Apps, Power Automate,Data Management Framework (DMF)"],
+        "context": [""]
+        },
+
+        
+        {"tag": "microsoft dynamic ax",
+         "patterns": ["microsoft dynamic ax", 
+         "Business Management Solution", 
+         "Supply Chain", 
+         "CRM (Customer Relationship Management)", 
+         "SSIS (SQL Server Integration Services)",
+         "SSRS (SQL Server Reporting Services)",
+        "SSAS (SQL Server Analysis Services)",
+        "Power BI" ,
+        "Analytics"
+        ],
+         "responses": ["microsoft dynamics AX is a highly flexible, feature-rich, integrated Business Management Solution among the microsoft dynamics Suite of Products. It streamlines Finance, Supply Chain, HR and CRM processes.microsoft dynamics AX can help organizations run their Global Businesses by consolidating and standardizing Business Processes &amp; Reporting, ensuring simplicity &amp; compliance. microsoft dynamics AX works well with microsoft Office, microsoft SQL Server, SSIS, SSRS, SSAS, Power BI, BizTalk, microsoft SharePoint, and Windows to connect Customers, Vendors and Employees by seamlessly integrating all Business activities and analytics."
+        ],
+         "context": [""]
+        },
+        {"tag": "Services for microsoft dynamic ax Platform",
+         "patterns": ["Comprehensive services", 
+         "Upgrade", 
+         "Implement",
+          "Enhance",
+           "Environments",
+           "Traditional on-prem",
+           "Migrating",
+           "SaaS-based",
+           "microsoft dynamic 365",
+           "Finance",
+           "Operations",
+           "SCM (Supply Chain Management)",
+           "Overall services"],
+         "responses": ["Discovery & amp; Recommendations,New Implementations,Upgrades,microsoft dynamics 365 -Migration,Custom Development,Integration,Third Party Add-ons,Stabilization,Digitalization,24*7 Application Support,Legacy Application Support,Hosting,Training"],
+         "context": [""]
+        },
+
+        {"tag": "microsoft dynamic ax Competencies",
+         "patterns": ["Functional Competencies",
+          "Functional gaps",
+          "Customizations",
+          "Integrations",
+          "BI Enhancements",
+          "Migrating",
+          "Technical Competencies",
+          "X++",
+          "Customizations",
+          "Integrations",
+          "Enhancements",
+          "Migration",
+          "upgrade",
+          "report development",
+          "SSIS",
+          "SSRS",
+          "Data Migration"],
+         "responses": ["Finance,Supply Chain,Manufacturing,HR and Payroll,Sales and Marketing (CRM),Projects,Services,Retail,Localizations,Consolidations,Budgeting and Forecasting,Corporate Performance Analysis",
+         "X++,microsoft dynamics 365-Migration,.NET,Morphx,microsoft Business Intelligence SSIS,SSRS & SSAS, microsoft Power BI,Enterprises Portal,AX versions:2012,R2,R3,2009,4.0,33.0,RetailPOS,AX 7 & microsoft dynamics 365"],
+         "context": [""]
+        } ,
+
+		{"tag": "Oracle Fusion",
+		"patterns": ["Oracle Fusion Applications",
+              "ERP (Enterprise Resource Planning)",
+               "SCM (Supply Chain Management)",
+                "HCM (Human Capital Management)",
+                "EPM (Enterprise Performance Management)",
+                "Customer Experience Cloud Applications",
+                "Business Applications"],
+		"responses": ["Oracle Fusion Applications works with Oracle's ERP, SCM, HCM, EPM and Customer Experience Cloud Applications to evolve Business to a new level of Performance. Oracle Fusion Applications is a suite of 100% open standards-based Business Applications that provide a new standard for the way Businesses innovate, work and adopt Technology. Oracle provides Businesses with their choice of all advancements pioneered by Oracle Fusion Applications, at a pace that matches individual Business demands."],
+		"context": [""]
+  },
+
+  	{"tag": "Oracle Fusion Application",
+		"patterns": ["Oracle Fusion Cloud",
+                "Offerings",
+                "Empowers",
+                "Economic uncertainties",
+                "Measurable Business Value"],
+		"responses": ["KARYA aligns with Oracle’s Strategy to realize the potential of Oracle Fusion Cloud. We are always ahead of the curve in mastering new Technologies to support our Clients’ Businesses by providing complete Solutions. KARYA’s Offerings in Oracle Fusion Applications on Cloud empowers Clients to take on a more inclusive strategic role in today’s world of Business and Economic uncertainties. KARYA is focused on delivering measurable Business Value to its Clients through proven best-practices, approach and change levers to efficiently run their Businesses."],
+		"context": [""]
+  },
+
+  {"tag": "Competencies for oracle",
+		"patterns": ["Competencies for oracle",
+                "Oracle Fusion Application Services",
+                "Custom-tailored solutions",
+                "Seamless migration",
+                "Upgrades",
+                "Functional Competencies for Oracle",
+                "Technical Competencies for Oracle"],
+
+		"responses": ["Enterprises Resource Planning,Supply Chain Management,Human Capital Management,Enterprises Performance Management,Customer Experience Cloud,Hospitality,Oracle BICS,ADF, JAVA, J2EE,Oracles Forms, Reports, PL/SQL,Fusion Middleware, SOA, Web Services,Oracle Platform Security Services,Mobile Application Framework,Oracle Big Data Cloud"],
+		"context": [""]
+  },
+
+
+  {"tag": "Salesforce",
+		"patterns": ["Salesforce",
+    "Cloud-based Solutions",
+    "Sales",
+    "Service",
+    "SAAS (Software as a Service)"
+    
+  ],
+		"responses": ["Salesforce, an Innovator in offering Cloud-based Solutions is also the undisputed leader in the CRM space. Salesforce packages and offers various CRM Functions and Features such as Sales, Service, Marketing, Commerce as separate yet well-integrated modules on the SAAS Platform. Salesforce products are viewed by the Global User community as Solutions that promote a high degree of Customer Engagement, Automation and Analytics."],
+		"context": [""]
+  },
+
+  
+  {"tag": "Competencies for Salesforce",
+		"patterns": ["Salesforce Practice",
+                 "Functional Competencies for Salesforce",
+                 "Technical Competencies for Salesforce",
+                  "Industry verticals",
+                  "Methodologies",
+                "Solution Accelerators",
+                "Production support",
+                "Quality development",
+                  "Robust"],
+		"responses": ["Sales,Service,Marketing,Commerce,Community,Analytics,industry Solutions;Infrastructure: Salesforce Cloud Platform;Application Development: Classic, Lightning, Salesforce DX, HTML, CSS, JavaScript, Heroku;Integration: Heroku, REST, SOAP and Web Services &amp; Third-Party Plugins;Analytics: Einstein Analytics"],
+		"context": [""]
+  },
+
+  {"tag": "Digital Application Development",
+  "patterns": ["Web Application Development",
+              "Digital Transformation",
+              "Data Entry Forms",
+              "Mobile Device Compatibility",
+              "Hybrid Application"],
+  "responses": ["Web Application Development is the building block of today’s Digital Transformation. Poratal, Websites, Data Entry forms, Transactional front-ends, Collaboration sites are the various use cases of Web Applications. Mobile device compatibility takes the web application  to the next level. Hybrid application are the order of the day.Our Web and Mobile Applications Team works closely with our clients to understand their Functional Requirements, End-user Interactions, Branding Needs, Security and IT Platforms.We then come up with right Solution Architecture, Wire frames, Development, Testing  and Deployment of Purpose-driven applications. Our Web and Mobile Applications are Elegant, Interactive and Functional in handling requirements from all angles."],
+  "context": [""]
+},
+
+{"tag": "Digital Application Technologies",
+"patterns": ["Web Application Development Frameworks",
+            "Digital Application Technologies",
+            "Mobile Application Development Frameworks",
+            "Front-end Technologies",
+            "Back-end Technologies",
+            "Version Control"],
+
+"responses": ["Web Application Development Frameworks:.NET MVC, Java, Spring, Rails, Angular, React, PHP, Symphony, Meteor and Laravel;Mobile Application Development Frameworks:Android, IOS, Xamarin, PhoneGap, Ionic, React Native, Flutter, Mobile Angular UI;Front-end Technologies:HTML, CSS, JavaScript, jQuery;Back-end Technologies:microsoft SQL, SQL Azure, Oracle, MySQL;Version Control:FS, Git, CodeCommit, CVS, PVCS, Subversion (SVN)"],
+"context": [""]
+},
+
+      {"tag": "Enterprise",
+      "patterns": ["Enterprise IT landscape",
+      "ERP/CRM",
+      "Data Warehouse & BI Applications",
+       "Enterprise Integration",
+      "Integration patterns",
+      "MOM (Message-Oriented Middleware)",
+      "ETL (Extract, Transform, Load)",
+      "SOA (Service-Oriented Architecture)",
+      "ESB (Enterprise Service Bus)"
+      ],
+      "responses": [" Enterprise’s IT landscape is composed of diverse purpose-driven Applications such as ERP/CRM, Web/Mobile Applications, Data Warehouse &amp; BI Applications, Legacy Applications, often distributed across On-Premise and Cloud. This makes Enterprise Integration both essential and challenging. KARYA Technologies specializes in integrating various Applications within and across Enterprises. We have immense capabilities in implementing robust integration solutions.We assist clients with Integration Architecture, Platform choices, Configurations, Development, Testing, Rollouts and best practices enforcement. For over a decade now, we are assisting our client base with various integration patterns best suited to their requirements such as FTP, MOM, ETL, SOA, ESB, Microservices and Database replications. We have developed several Information Exchange Portals and B2B interfaces using industry standards such as EDIFACT, X12, SML, SWIFT, HL7."],
+      "context": [""]
+      },
+      
+      {"tag": "Tools and Technologies for integrations Enterprise",
+      "patterns": ["Tools and Technologies for integrations",
+      "Integration frameworks",
+      "Technologies for Enterprise "
+      ],
+      "responses": ["Integration frameworks:microsoft BizTalk Server, Oracle Fusion Middleware, Apache Camel, Spring Integration, Mule ESB, Neuron, Dell Boomi, Tibco-Scribe and Jitterbit;Technologies:FTP, JMS, MSMQ, HTTP, EJB, XML, JSON, JWT, SOAP, REST, API, OAuth, Webhooks, C#, Java, Perl, Python, SSIS, ODI"],
+      "context": [""]
+      },
+      
+
+      {"tag": "Content Management System",
+      "patterns": ["Content Management System",
+                  "Content Management",
+                  "Website Contents",
+                  "Customizing",
+                "Content Management platform",
+                "CMS Platform Selection",
+                "Development of Custom Modules",
+                "Technologies & Frameworks",
+                "24*7 Production Support",
+                "Drupal",
+                "WordPress",
+                "Plugins"],
+      "responses": ["Content Management, although primarily refers to Website Contents often extends to Documents, Audio, Images, Video and similar contents.KARYA Technologies helps clients in Selecting, Implementing and Customizing the right Content Management platform to succeed in their Digital Journey.Our Services for Content Management includes Assessments &amp; Recommendations, CMS Platform Selection, New Implementations and Enhancements, UI/UX Design, Development of Custom Modules, Themes and Plugins, Integrations, Testing and 24*7 Production Support.Our Technologies &amp; Frameworks include Drupal, WordPress, Joomla, EPiServer and Sitecore."],
+      "context": [""]
+      },
+
+      {"tag": "E-Commerce Applications",
+      "patterns": ["E-Commerce Applications",
+      "E-Commerce Practice",
+      "Customer Experience",
+      "ERP",
+      "E-Commerce Platform",
+      "Payment Processing",
+      "Marketing Automation Solutions",
+      "24/7 Platform Support"    ],
+      "responses": ["E-Commerce Practice provides clients with all necessary assistance in Choosing, Implementing and Customizing E-Commerce Platform to suit their requirements. We design highly responsive and adaptive UI/UX to enhance customer experience. We not only implement the Basics but also the Advanced and Custom Features including Customer Account Management, Shopping Cart, Order Management, Product Configurator, Promotions, Payment Processing, Returns Management, Customer Service and Loyalty. We seamlessly integrate the E-commerce Platform as required with ERP, CRM, Payment Gateway and Marketing Automation Solutions. We offer Full-range of services including Advisory, Implementations, Enhancements and 24/7 Platform Support.E-Commerce include Magento, Shopify, k-eCommerce, BigCommerce and WooCommerce."],
+      "context": [""]
+      },
+
+      {"tag": "Marketing Automation  ",
+      "patterns": ["Marketing Automation",
+                "Marketing and Advertising",
+                "Digital Marketing",
+               "Conventional Marketing",
+               "Marketing Automation",
+               "Marketing Automation Practice",
+                "Marketing Automation Software",
+               "E-mail Marketing",
+                "Digitalization"],
+      "responses": ["Digital Marketing has seized the reigns from the Conventional Marketing. The direct impact of this is the increasing need for Marketing Automations. Slated to be one of the most rapidly growing segments in the Digital arena Marketing Automation is here to stay and grow.KARYA Technologies’ Marketing Automation Practice helps Clients in Selecting, Implementing and Tailoring the right Marketing Automation Software. We Implement and Customize various Out Of The Box (OOTB) features such as E-mail Marketing, Lead Scoring &amp; Nurturing, Progressive Profiling, Social Media Management, Landing Pages, A/B Testing. We also help Integrate the Marketing Automation Platform Seamlessly with CRM and Analytics engine. Our services come under broad categories of Advisory, Implementation &amp; Enhancements and 24/7 Platform Support.The Marketing Automation Platforms includes ClickDimensions, HubSpot, Marketo, Pardot and Eloqua."],
+      "context": [""]
+      },
+
+      {"tag": "Digitalization of ERP & CRM",
+      "patterns": ["Digitalization of ERP & CRM",
+      "Mobile Access Enablement",
+      "Digital Transformation",
+      "Business requirements",
+      "Device Integrations",
+      "Trading Partner Collaboration Portals",
+      "Cloud Migrations"],
+      "responses": ["ERP & CRM are designed to satisfy most business requirements, even the best of the breed ERPs &amp; CRMs is found lagging, when it comes to Digital Transformation.CRM very effectively and efficiently by providing variety of Tailor-made services specific to your Industry &amp; Company requirements. We assist with digitalizing your ERP &amp; CRM Platforms with Workflow &amp; Process Automations, Mobile Access Enablement of specific functionalities, Device Integrations, Data Entry Portals, Trading Partner Collaboration Portals, Improved Integrations of Applications, Enhanced Analytics, Third-Party Interfaces and Cloud Migrations.The ERPs and CRMs that we frequently digitalize include microsoft dynamics 365, AX, GP, NAV, CRM, Oracle Fusion Applications and Salesforce."],
+      "context": [""]
+      },
+
+      {"tag": "Enterprises Collaboration",
+      "patterns": ["Trading Partners",
+                "Intranet",
+                "Internet",
+                "Extranet",
+                "Document Management Systems",
+                "Business Process Workflows",
+                "Collaborative Project Management Solutions"],
+      "responses": ["Enterprises Collaboration assist customers in implementing various Portals (Intranet, Internet and Extranet), Business Process Workflows, Document Management Systems, GroupWare and Collaborative Project Management Solutions.Our Technologies &amp; Frameworks for Enterprise Collaboration include SharePoint and Office 365, Oracle WebCenter, Google, Dropbox and Citrix. "],
+      "context": [""]
+      },
+
+      {"tag": "Services for SharePoint",
+      "patterns": ["Services for SharePoint",
+      "What is the exam pattern"],
+      "responses": ["There are assignments which carry more weight than your written exams. The assignments have deadlines which you should not exceed if you want to get better marks."],
+      "context": [""]
+      },
+
+      {"tag": "Internet of Things",
+      "patterns": ["IoT (Internet of Things)",
+      "Consumer Sector",
+     "Industrial Sector",
+      "Wearable Fitness devices",
+        "Home Automation",
+      "Industrial Assets tagging",
+      "Smart meters",
+      "Internet"],
+      "responses": ["With a humble beginning in the late nineties primarily restricted to the Supply Chain use cases, the concept of IoT has spread like a wildfire in the last two decades. Today IoTs impact almost every walk of life both in the Consumer and Industrial Sectors. Beacons in a Retail Store, Wearable Fitness devices, Home Automations, Industrial Assets tagging, Smart meters are some of the real-life application of IoT these days. The evolution of the Internet, WiFi, Bluetooth and Integration Technologies have been instrumental in increasing the adoption of IoT.",
+    "KARYA Technologies can assist you with the necessary services to incorporate and integrate the IoTs in your Enterprise, Products and Services. We provide IoT Advisory, Hardware &amp; Technology Selection, Rapid Prototyping, IoT Implementation, Development &amp; Integration and IoT Analytics.state-of-the-art Technologies including HTML, CSS, JavaScript, .Net, Java, PHP, IoT Device APIs, WiFi &amp; Bluetooth."],
+      "context": [""]
+      }
+
+
+
+
+
+    ]}

@@ -1,0 +1,10 @@
+
+AX 
+NAV
+D365 Business central
+D365 F&O
+GP
+Sharepoint
+CRM
+D365 sales
+SQL Server

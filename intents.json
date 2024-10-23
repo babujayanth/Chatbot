@@ -1,0 +1,327 @@
+{"intents": [
+
+  {
+    "tag": "greeting",
+    "patterns": [
+       "Hi",
+       "How are you?",
+       "Is anyone there?",
+       "Hello",
+       "Good day",
+       "What's up",
+       "how are ya",
+       "heyy",
+       "hey",
+       "whatsup",
+       "??? ??? ??"
+    ],
+    "responses": [
+       "Hello!",
+       "Good to see you again!",
+       "Hi there, how can I help?"
+    ],
+    "context_set": ""
+  },
+        {"tag": "D365",
+         "patterns": ["d365",
+         "D365",
+         "Cloud*enabled",
+         "dynamic*365",
+         "Consolidated*platform",
+         "Enterprise*Collaboration",
+         "Advanced*Analytics",
+         "Azure",
+         "PowerBI",
+         "Finance",
+         "Operations",
+         "Retail",
+         "Sales",
+         "Marketing",
+         "Secure*cloud*platform"
+        ],
+
+         "responses": ["Microsoft dynamics 365 is the new Cloud enabled consolidated platform which is a convergence of core ERP and CRM functionalities, Add-ons, Enterprise Collaboration and Advance Analytics.",
+        "It combines the power of Azure with SharePoint, Office 365, Power Platform and PowerBI. It is intended to assist companies leverage on the core functionalities of Finance, Operations, Retail, Sales, Marketing, Customer Service, Field Service, Project Service Automation (PSA) and Talent hosted in a single Secure Cloud Platform with state-of-the-art Collaboration and Advance Analytics."],
+         "context": [""]
+        },
+
+        {"tag": "Sharepoint",
+        "patterns": ["sharepoint", 
+        "sharepoint*service", 
+        "Office*365*service", 
+       "Customer*relationship" ,
+       "Office*365*migration",
+       "sharePoint*migration",
+       "sharepoint*implementation",
+       "sharepoint*enhancement",
+       "sharePoint*integration",
+       "SharePoint*maintenance",
+       "sharePoint*support",
+       "sharePoint*performance*optimization",
+       "sharePoint*upgrade",
+       "sharePoint*security*management",
+       "sharePoint* Managed*Service",
+       "sharePoint*technical*support",
+       "Office*365*service",
+       "web*application"
+   
+         ],
+        "responses": ["SharePoint is an Enterprise Solution that enhances Organizational Communications and Collaborations. This Web-based Collaboration Platform will empower Employees and Groups to create Sites easily, share Information & amp; Documents seamlessly and Manage Enterprise Contents & Business Processes effectively.",
+        "Microsoft Office Productivity Suite, Outlook, Delve, Flow, PowerApps, OneDrive, Calendar, Planner, Teams, Groups, Skype, Yammer, Video and Power BI."
+       ],
+        "context": [""]
+       },
+
+
+        {"tag": "AX",
+         "patterns": ["Microsoft*dynamic*ax", 
+         "Business*Management*Solution", 
+         "Supply*Chain", 
+        "Power*BI" ,
+        "Analytics",
+        "AX*technical*competency",
+        "Data*Migration"
+
+        ],
+         "responses": ["AX is a highly flexible, feature-rich, integrated Business Management Solution among the microsoft dynamics Suite of Products. It streamlines Finance, Supply Chain, HR and CRM processes.",
+         "microsoft dynamics AX can help organizations run their Global Businesses by consolidating and standardizing Business Processes &amp; Reporting, ensuring simplicity &amp; compliance. microsoft dynamics AX works well with microsoft Office, microsoft SQL Server, SSIS, SSRS, SSAS, Power BI, BizTalk, microsoft SharePoint, and Windows to connect Customers, Vendors and Employees by seamlessly integrating all Business activities and analytics."
+         
+        ],
+         "context": [""]
+        },
+     
+        {"tag": "services",
+        "patterns": ["D365",
+        "AX",
+        "CRM",
+        "Oracle",
+        "F&O", 
+        "Dynamics*GP",
+        "gp",
+        "GP",
+        "NAV",
+        "nav",
+        "sql*server*DBA",
+        "sql*programming",
+        "infra*support",
+        "testing",
+        "quality*assurance",
+        "resource*augmentation",
+        "service",
+        "Business*Central"
+       ],
+        "responses": ["KARYA provides Advisory,Resource augmentation, Development, 24x7 Production Support for the following Application platforms: D365, AX, CRM, Sharepoint, F&amp;O, Business Central,Dymanics GP, infra support, testing, Quality Assurance & resource augmentation."
+       ],
+        "context": [""]
+       },
+    
+       {"tag": "NAV*service",
+       "patterns": ["D365",
+       "AX",
+       "nav*service",
+       "CRM",
+       "Oracle",
+       "F&O", 
+       "Business*Central",
+       "Dymanics*GP",
+       "gp",
+       "GP",
+       "NAV",
+       "nav",
+       "sql*server*DBA",
+       "sql*programming",
+       "infra*support",
+       "testing",
+       "quality*assurance",
+       "resource*augmentation",
+       "business*central"
+  
+      ],
+       "responses": ["KARYA provides Advisory, Development & 24x7 Production Support for NAV 2009,2012,2015 to 2019 versions."
+      
+      ],
+       "context": [""]
+      },
+
+      {"tag": "GP",
+      "patterns": ["GP", 
+      "GP*service", 
+      "EDI*framework", 
+     "Mobile*application"
+
+     ],
+      "responses": ["GP is a Business Operations Management Software that aids an organization to increase the Productivity by using the system of Integrated Applications to manage the Business and automate several Functions related to Operations, Finance, Services and Human Resources."
+     ],
+      "context": [""]
+     },
+  
+      
+     {"tag": "CRM",
+     "patterns": ["CRM", 
+     "Customer*relationship*management", 
+     "Sales", 
+    "Customer*relationship" 
+      ],
+     "responses": [
+      "CRM is a full Customer Relationship Management suite with Marketing, Sales, Customer Service and Social Insight Capabilities that allows Businesses hit their Targets by managing, developing, and growing their Customer Relationships thereby reducing Costs and increasing Profitability."
+      
+    ],
+     "context": [""]
+    },
+
+   
+
+    {"tag": "Quality Assurance",
+    "patterns": ["Quality*Assurance", 
+    "QA", 
+    "Functional*testing*of*QA", 
+    "Non*Functional*testing*of*QA",
+   "Test*Plan",
+   "Test*Cases",
+   "Test*service",
+   "QA*tool",
+   "Test*automation*service",
+   "QA*test*automation*tool",
+   "Performance*testing*service",
+   "Performance*testing*tool"
+   ],
+    "responses": ["Functional testing such as Digital Application, ERP, CRM, Data Warehousing and Integrations.The Testing until the Application is production worthy. Smoke Testing, Sanity, Regression and Usability Testing are some of the Functional Testing that we carry out",
+    "Non Functional testing includes Performance, Scalability, Security and Compliance.We use right Tools &amp; Technologies for Managing, Planning, Test Case Capturing, Execution Scheduling, Results Gathering and Bug Tracking.",
+    "Testing tools such as HP,Selenium,Telerik,TestComplete,Ranorex,Jira,Watir,Bugzilla.",
+    "Test Automation Services are Coding & Scripting for Automations,Maintenance.",
+    "Test Automation Tools like Selenium, Telerik, Robotium, TestComplete, Watir, Visual Studio, QTP, SoapUI, FitNesse.",
+    "Performance Testing Services such as Load Testing,Stress Testing,Endurance Testing,Spike Testing,Volume Testing,Scalability Testing",
+    "Performance testing tools are NeoLoad,LoadRunner,Jmeter,LoadView testing."
+   ],
+    "context": [""]
+   },
+
+   {"tag": "IT Infrastructure ",
+   "patterns": ["IT*infrastructure", 
+   "Infrastructure*solution", 
+   "Infra*service"
+  ],
+   "responses": ["KARYA Technologies is an established IT Infrastructure Services Provider specializing in Planning, Designing, Implementing and Maintaining IT Infrastructure.",
+   "Our Infrastructure services encompass Digital, Mobile, Cloud, Security, Analytics and all contemporary components.",
+   "Infra services such as Servers,Databases,Networks,Applications,Cloud & Virtualizations,IT Security and Enterprises Collaboration Systems."
+  ],
+   "context": [""]
+  },
+
+
+  {"tag": "Technical Competency",
+  "patterns": [
+  "D365*technical*competency"
+
+ ],
+  "responses": [
+  "D365 Technical competency are : X++, C/AL, C/SIDE, .NET, Visual Studio, VSTS,Microsoft SQL Server,SSRS, SSAS, SSIS, Microsoft Power BI,Microsoft Power Apps, Power Automate,Data Management Framework (DMF)."
+ ],
+  "context": [""]
+ },
+
+ {"tag": "Technical Competency",
+ "patterns": [
+ "NAV*technical*competency"
+
+],
+ "responses": [
+ "NAV Technical competency are : C/AL, C/SIDE Development,Microsoft Dynamics 365 – Migration,Microsoft Business Intelligence SSIS, SSRS and SSAS,Microsoft Power BI,PowerApps, Microsoft Flow,Office 365,E-everything and OCR System,Cortana Intelligence and Extensions,LS Retail NAV."
+
+],
+ "context": [""]
+},
+
+{"tag": "Technical Competency",
+"patterns": [
+"CRM*technical*competency"
+],
+"responses": [
+  "CRM Technical competency are : .NET,Version- 3.0,4.0, 2011, 2013, 2015, 2016,Microsoft Dynamics 365 – Migration,Microsoft Business Intelligence SSIS, SSRS and SSAS,Microsoft Power BI."
+],
+"context": [""]
+},
+
+{"tag": "Technical Competency",
+"patterns": [
+"GP*technical*competency"
+],
+"responses": [
+  "GP Technical competency are : FRx,Dexterity Development,Dexterity Report Writer, Modifier,Microsoft Dynamics 365 – Migration,Microsoft Business Intelligence SSIS, SSRS and SSAS,Microsoft Power BI,Crystal Reports,Enterprises Portal."
+],
+"context": [""]
+},
+
+
+ {"tag": "Functional Competency",
+ "patterns": ["CRM*functional*competency"
+
+],
+ "responses": ["CRM functional competency are : Sales,Marketing,Customer Service,Social,Mobile,Online."
+],
+
+ "context": [""]
+},
+
+{"tag": "Functional Competency",
+"patterns": ["AX*functional*competency"
+
+],
+"responses": [ "AX functional competency are : Finance,Supply Chain,Manufacturing,HR and Payroll,Sales and Marketing (CRM),Projects,Services,Retail,Localizations,Consolidations,Budgeting and Forecasting,Corporate Performance Analysis."
+],
+
+"context": [""]
+},
+
+{"tag": "Functional Competency",
+"patterns": ["GP*functional*competency"
+
+],
+"responses": [ "GP functional competency are : Financials,Human Resources,Supply Chain,Manufacturing,Project Management,Field Service,BI and Reporting."
+],
+
+"context": [""]
+},
+ 
+{"tag": "Functional Competency",
+"patterns": ["D365*functional*competency"
+
+],
+"responses": [ "D365 functional competency are :Finance,Supply Chain Management,Retail,Talent,Sales,Marketing,Field Service,Customer Service,Project Operations,Field Service,Business Central,Commerce."
+],
+
+"context": [""]
+},
+
+{"tag": "Functional Competency",
+"patterns": ["NAV*functional*competency"
+
+],
+"responses": ["NAV functional competency are : Financial Management,Supply Chain Management,Manufacturing,Project Management,Sales, Marketing, Service,Business Intelligence,Worldwide Version (W1)."
+],
+
+"context": [""]
+},
+ 
+
+        
+
+      {"tag": "Internet of Things",
+      "patterns": ["IoT (Internet of Things)",
+      "Consumer Sector",
+     "Industrial Sector",
+      "Wearable Fitness devices",
+        "Home Automation",
+      "Industrial Assets tagging",
+      "Smart meters",
+      "Internet"],
+      "responses": ["With a humble beginning in the late nineties primarily restricted to the Supply Chain use cases, the concept of IoT has spread like a wildfire in the last two decades. Today IoTs impact almost every walk of life both in the Consumer and Industrial Sectors. Beacons in a Retail Store, Wearable Fitness devices, Home Automations, Industrial Assets tagging, Smart meters are some of the real-life application of IoT these days. The evolution of the Internet, WiFi, Bluetooth and Integration Technologies have been instrumental in increasing the adoption of IoT.",
+    "KARYA Technologies can assist you with the necessary services to incorporate and integrate the IoTs in your Enterprise, Products and Services. We provide IoT Advisory, Hardware &amp; Technology Selection, Rapid Prototyping, IoT Implementation, Development &amp; Integration and IoT Analytics.state-of-the-art Technologies including HTML, CSS, JavaScript, .Net, Java, PHP, IoT Device APIs, WiFi &amp; Bluetooth."],
+      "context": [""]
+      }
+
+
+
+
+
+    ]}
