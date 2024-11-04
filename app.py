@@ -1,84 +1,55 @@
-### Author: Riya Nakarmi ###
-### College Project ###
-
-import random
+import os
 import json
-import pickle
-import numpy as np
 
-import nltk
-from nltk.stem import WordNetLemmatizer
+from flask import Flask, render_template, request,jsonify
 
-from tensorflow.keras.models import load_model
+# from chat import get_response
 
-
-lemmatizer = WordNetLemmatizer()
-
-intents = json.loads(open('AI chatbot/intents.json').read())
-
-words = pickle.load(open('AI chatbot/words.pkl', 'rb'))
-classes = pickle.load(open('AI chatbot/classes.pkl', 'rb'))
-model = load_model('AI chatbot/chatbotmodel.h5')
-
-def clean_up_sentence(sentence):
-    sentence_words = nltk.word_tokenize(sentence)
-    sentence_words = [lemmatizer.lemmatize(word)  for word in sentence_words]
-    return sentence_words
-
-def bag_of_words(sentence):
-    sentence_words= clean_up_sentence(sentence)
-    print("sentence words:",sentence_words)
-    bag = [0] * len(words)
-    print("words:",words)
-    print("bag:",bag)
-    for w in sentence_words:
-        for i, word in enumerate(words):
-            #print("enumerate words:",enumerate(words))
-            if word == w:
-                bag[i] = 1
-
-    return np.array(bag)
-
-def predict_class(sentence):
-    bow = bag_of_words(sentence)
-    print("bag of words:",bow)
-    res = model.predict(np.array([bow]))[0]
-    print(np.array([bow]))
-    print("result:",res)
-    ERROR_THRESHOLD = 0.25
-    results = [[i,r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-
-    results.sort(key=lambda  x:x[1], reverse=True)
-    return_list = []
-    for r in results:
-        return_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
-    return return_list
+from main import get_response
+from main import predict_class
 
 
-def get_response(intents_list,intents_json):
-    tag= intents_list[0]['intent']
-    list_of_intents =intents_json['intents']
-    for i in list_of_intents:
-        if i['tag'] == tag:
-            result = random.choice(i['responses'])
-            break
-    return result
+app = Flask(__name__)
 
-print("|============= Welcome to College Equiry Chatbot System! =============|")
-print("|============================== Feel Free ============================|")
-print("|================================== To ===============================|")
-print("|=============== Ask your any query about our college ================|")
-while True:
-    message = input("| You: ")
-    if message == "bye" or message == "Goodbye":
-        ints = predict_class(message)
-        res = get_response(ints, intents)
-        print("| Bot:", res)
-        print("|===================== The Program End here! =====================|")
-        exit()
+basedir = os.path.abspath(os.path.dirname(__file__))
+data_file = os.path.join(basedir, 'data.json')
 
-    else:
-        ints = predict_class(message)
-        print("Predicted:",ints)
-        res = get_response(ints, intents)
-        print("| Bot:", res)
+
+
+@app.get("/")
+
+def index_get():
+    return render_template("base.html")
+
+# @app.post("/read")
+# def readfile():
+#     WORDS = []
+
+#     with open(data_file, "r") as file:
+#         for line in file.readlines():
+#          WORDS.append(line.rstrip())
+#     words = [word for word in WORDS ]
+#     return jsonify(words)
+
+# @app.post("/write")
+# def writefile():
+#     text=request.get_json().get("message")
+#     with open(data_file, "a") as fo:
+#         fo.write(text+ "\n")
+#     return jsonify({"msg":"sces"})
+
+
+@app.post("/predict")
+def predict():
+    text=request.get_json().get("message")
+    print('a:',text)
+    intents = json.loads(open('intents.json').read())
+    ints = predict_class(text)
+    print(ints)
+    response = get_response(ints,intents)
+    print('b:',response)
+    message = {"answer":response}
+    return jsonify(message)
+
+if __name__ == "__main__":
+    app.run(debug=True)
