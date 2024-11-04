@@ -1,0 +1,5 @@
+flask
+numpy
+nltk
+python -m nltk.downloader popular
+tensorflow
